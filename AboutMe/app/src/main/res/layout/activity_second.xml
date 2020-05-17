@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imgTobi2"
+        android:layout_width="275dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/imgtobi2" />
+
+    <TextView
+        android:id="@+id/txtViewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgTobi2"
+        android:layout_marginTop="25dp"
+        android:text="Junaid Oluatobi"
+        android:textAlignment="center"
+        android:textColor="#2AB60E"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:layout_below="@+id/txtViewName"
+        android:layout_marginTop="25dp"
+        android:text="Well Since you clicked the button guess you wanna get to \n
+        about me, well i'm Tobi for shorts, i'm 17yrs, a student of Computer Engineering in University of Lagos \n
+        I'm Currently Learning Android development with Kotlin at DroidCamp. It has been a wonderful experience so far and \n
+i'm really getting a lot from the teachings and i believe \n that im gonna make productive use of the knowledge and who knows you
+might eventually use an app i would have been involved in but till then stay safe!!!"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnSayHello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="20dp"
+        android:text="Wanna Say Hey" />
+
+
+</RelativeLayout>
