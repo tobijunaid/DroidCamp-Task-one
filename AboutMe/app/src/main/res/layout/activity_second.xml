@@ -9,8 +9,8 @@
 
     <ImageView
         android:id="@+id/imgTobi2"
-        android:layout_width="275dp"
-        android:layout_height="250dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         app:srcCompat="@drawable/imgtobi2" />
 
@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/imgTobi2"
         android:layout_marginTop="25dp"
-        android:text="Junaid Oluatobi"
+        android:text="Junaid Oluwatobi"
         android:textAlignment="center"
         android:textColor="#2AB60E"
         android:textSize="30dp"
