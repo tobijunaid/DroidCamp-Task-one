@@ -4,8 +4,6 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Adapter
-import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.item.view.*
 
@@ -24,7 +22,7 @@ class recyclerViewAdapter(private val context: Context, private val userList: Ar
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
 
-        var user:userDataModel = userList[position]
+        val user:userDataModel = userList[position]
         holder.setData(user, position)
         holder.bind(user, itemClickListener)
         //holder.title.text = user.title
@@ -45,7 +43,7 @@ class recyclerViewAdapter(private val context: Context, private val userList: Ar
             data?.let {
                 itemView.tvTitle.text = data.title
                 itemView.tvDesc.text = data.desc
-                itemView.profile_image.id = data.img
+                itemView.profile_image.setImageResource(data.img)
 
             }
             this.currentTitle = data
