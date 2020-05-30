@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Profile App Task</string>
+    <string name="name"> Junaid Oluwatobi</string>
+    <string name="description"> Mobile Developer</string>
+    <string name="add_ons"> Trainee under DroidCamp learning Kotlin to dvelop apps
+        \n Skilled gamer, Movie-lover and Smart
+    \n Check Me out on the Social Media platforms below</string>
+</resources>

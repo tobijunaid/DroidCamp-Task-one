@@ -1,0 +1,2 @@
+rootProject.name='Profile App Task'
+include ':app'
