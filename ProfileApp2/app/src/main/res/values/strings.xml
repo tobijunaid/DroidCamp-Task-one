@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Profile App</string>
+    <string name="name">Christopher Abolade-Ambode</string>
+    <string name="desc"> Mobile Developer</string>
+    <string name="about_me">I am an Android Developer in training
+        \nA really Fun guy to be around with
+        \n Also a Python programmer looking forward to solve problems with knowledge in coding</string>
+</resources>
